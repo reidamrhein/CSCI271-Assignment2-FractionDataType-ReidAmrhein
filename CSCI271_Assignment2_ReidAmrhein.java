@@ -7,7 +7,10 @@
 * Date: January 27, 2026
 *
 * Purpose
-* This program calculates our grade using the calculations from the syllabus
+* Basically, we plan to avoid float number division by keeping the values as 
+fractions, which means that we need several operations to implement the data 
+type and implement the operations needed to perform the desired 
+arithmetic manipulations.
 *
 *************************************************************************/
 
