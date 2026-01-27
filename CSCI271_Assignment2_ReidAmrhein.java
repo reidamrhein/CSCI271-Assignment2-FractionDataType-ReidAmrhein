@@ -29,5 +29,11 @@ arithmetic manipulations.
 * interfere with the normal operation of the supplied grading code.
 *
 * <Reid Amrhein>
-* Said not to include Student ID, so I didn't
+* Said not to include Student ID, so I didn't include it
 ********************************************************************/
+
+public class CSCI271_Assignment2_ReidAmrhein{
+    public static void main(String[] args){
+    
+    }
+}
