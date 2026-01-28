@@ -33,6 +33,9 @@ arithmetic manipulations.
 ********************************************************************/
 
 public class CSCI271_Assignment2_ReidAmrhein{
+    private double numerator;
+    private double denominator;
+    
     public static void main(String[] args){
     
     }
