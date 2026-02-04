@@ -37,7 +37,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
         private int numerator;
         private int denominator;
 
-        // COnstructors
+        // Task 1: COnstructors
         public Fraction (int a, int b){
             if (b == 0) {           // Infinity or NaN
                 numerator = a;
