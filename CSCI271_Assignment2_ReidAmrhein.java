@@ -55,6 +55,11 @@ public class CSCI271_Assignment2_ReidAmrhein{
                 a = -a;
                 b = -b;
             }
+
+            int g = gcd(a, b);
+            numerator = a / g;
+            denominator = b / g;
+        }
     }
     
     public static void main(String[] args){
