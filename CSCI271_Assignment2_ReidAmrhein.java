@@ -62,6 +62,11 @@ public class CSCI271_Assignment2_ReidAmrhein{
         }
     }
     
+    // Task 2: toString Function
+
+    // Task 3: Arithmatic Operations
+    
+    // Task 4: Main Testing
     public static void main(String[] args){
     
     }
