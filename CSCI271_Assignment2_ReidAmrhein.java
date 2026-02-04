@@ -33,20 +33,28 @@ arithmetic manipulations.
 ********************************************************************/
 
 public class CSCI271_Assignment2_ReidAmrhein{
-    private double numerator;
-    private double denominator;
+    public class Fraction {
+        private int numerator;
+        private int denominator;
 
-    // i have to name this class the same as the filename
-    public CSCI271_Assignment2_ReidAmrhein(double a, double b){
-        if (b == 0){
-            numerator = a;
-            denominator = 0; // to represent NaN
-        }
-        else if (b < 0) {
-            // Normalize fraction so denominator > 0
-            a = -a;
-            b = -b;
-        }
+        // COnstructors
+        public Fraction (int a, int b){
+            if (b == 0) {           // Infinity or NaN
+                numerator = a;
+                denominator = 0;
+                return;
+            }
+
+            if (a == 0) {           // Normalize zero
+                numerator = 0;
+                denominator = 1;
+                return;
+            }
+
+            if (b < 0) {            // Keep denominator positive
+                a = -a;
+                b = -b;
+            }
     }
     
     public static void main(String[] args){
