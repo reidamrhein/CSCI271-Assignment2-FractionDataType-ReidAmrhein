@@ -35,6 +35,19 @@ arithmetic manipulations.
 public class CSCI271_Assignment2_ReidAmrhein{
     private double numerator;
     private double denominator;
+
+    // i have to name this class the same as the filename
+    public CSCI271_Assignment2_ReidAmrhein(double a, double b){
+        if (b == 0){
+            numerator = a;
+            denominator = 0; // to represent NaN
+        }
+        else if (b < 0) {
+            // Normalize fraction so denominator > 0
+            a = -a;
+            b = -b;
+        }
+    }
     
     public static void main(String[] args){
     
