@@ -186,8 +186,35 @@ public class CSCI271_Assignment2_ReidAmrhein{
 
         return a;
     }
-    // Task 4: Main Testing
-    public static void main(String[] args){
-    
-    }
 }
+    // Task 4: Main Testing
+    /***************************** main **********************************
+    * Description:
+    * Tests all required conditions for the Fraction class.
+    *******************************************************************/
+    public static void main(String[] args){
+    // Test normalization and constructors
+        System.out.println(new Fraction(6, -24));   // -1/4
+        System.out.println(new Fraction(0, 8));     // 0
+        System.out.println(new Fraction(23, 0));    // Infinity
+        System.out.println(new Fraction(-6, 0));    // -Infinity
+        System.out.println(new Fraction(0, 0));     // NaN
+        System.out.println(new Fraction(7, 1));     // 7
+
+        // Assignment sample calculation
+        Fraction a = new Fraction(16);
+        Fraction b = new Fraction(3, 5).add(new Fraction(7));
+        Fraction c = new Fraction(6, 7);
+
+        Fraction result = c.multiply(a.divide(b));
+        System.out.println(result); // 240/133
+
+        // Additional arithmetic tests
+        System.out.println(c.add(b));
+        System.out.println(c.subtract(b));
+        System.out.println(c.multiply(b));
+        System.out.println(c.divide(b));
+        System.out.println(c.negate());
+        System.out.println(c.pow(3));
+        System.out.println(c.pow(-2));
+    }
