@@ -241,7 +241,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
         }
 
         if (a == 0) {
-            return a;
+            return 1;
         }
 
         return a;
@@ -277,5 +277,5 @@ public class CSCI271_Assignment2_ReidAmrhein{
         System.out.println(c.negate());
         System.out.println(c.pow(3));
         System.out.println(c.pow(-2));
-    } // yas
+    } 
 }
