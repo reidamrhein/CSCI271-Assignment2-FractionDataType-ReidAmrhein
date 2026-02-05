@@ -57,7 +57,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
                 b = -b;
             }
 
-            int g = gcd(a, b); // Greatest Common Denominator Function
+            int g = gcd(a, b); // Greatest Common Divisor Function
             numerator = a / g;
             denominator = b / g;
         }
@@ -163,6 +163,28 @@ public class CSCI271_Assignment2_ReidAmrhein{
         }
 
         return new Fraction(a, b);
+    }
+
+    /***************************** gcd *********************************
+        * Description:
+        * Computes the greatest common divisor using Euclid's algorithm.
+        *******************************************************************/
+
+    public Fraction gcd(int a, int b){
+        a = Math.abs(a);
+        b = Math.abs(b);
+
+        while (b != 0) {
+            int remainder = a % b;
+            a = b;
+            b = remainder;
+        }
+
+        if (a == 0) {
+            return 1;
+        }
+
+        return a;
     }
     // Task 4: Main Testing
     public static void main(String[] args){
