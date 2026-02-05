@@ -65,7 +65,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
         public Fraction(int a) {
             this(a, 1);
         }
-    }
+    
     
     // Task 2: toString Function
     
@@ -170,7 +170,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
         * Computes the greatest common divisor using Euclid's algorithm.
         *******************************************************************/
 
-    public Fraction gcd(int a, int b){
+    private static int gcd(int a, int b){
         a = Math.abs(a);
         b = Math.abs(b);
 
