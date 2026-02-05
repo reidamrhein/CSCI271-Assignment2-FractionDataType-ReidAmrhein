@@ -34,7 +34,7 @@ arithmetic manipulations.
 
 // I used my notes and the powerpoints for help on this
 public class CSCI271_Assignment2_ReidAmrhein{
-    public class Fraction {
+    public static class Fraction {
         private int numerator; // Stores the numerator of the fraction
         private int denominator; // Stores the denominator of the fraction
 
@@ -77,26 +77,26 @@ public class CSCI271_Assignment2_ReidAmrhein{
         * String representation of the fraction.
         *******************************************************************/
 
-    public String toString() {
-        if (denominator == 0) {
-            if (numerator == 0) {
-                return "NaN";
+        public String toString() {
+            if (denominator == 0) {
+                if (numerator == 0) {
+                    return "NaN";
+                }
+                else if (numerator > 0) {
+                    return "Infinity";
+                }
+                else {
+                    return "-Infinity";
+                }
             }
-            else if (numerator > 0) {
-                return "Infinity";
+
+            if (denominator == 1) {
+                return Integer.toString(numerator);
             }
-            else {
-                return "-Infinity";
-            }
+
+            return numerator + "/" + denominator;
         }
-
-        if (denominator == 1) {
-            return Integer.toString(numerator);
-        }
-
-        return numerator + "/" + denominator;
-    }
-
+}
     // Task 3: Arithmatic Operations
 
     /***************************** add *********************************
@@ -181,7 +181,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
         }
 
         if (a == 0) {
-            return 1;
+            return a;
         }
 
         return a;
