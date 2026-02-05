@@ -34,11 +34,48 @@ arithmetic manipulations.
 
 // I used my notes and the powerpoints for help on this
 public class CSCI271_Assignment2_ReidAmrhein{
+    /*******************************************************************
+    * Class: Fraction
+    *
+    * Purpose:
+    * Represents a mathematical fraction using integer arithmetic.
+    * The class ensures fractions are always stored in normalized,
+    * reduced form with a non-negative denominator.
+    *
+    * Interface:
+    * Fraction(int a, int b)
+    * Fraction(int a)
+    * add(), subtract(), multiply(), divide()
+    * negate(), pow()
+    * toString()
+    *******************************************************************/
+
     public static class Fraction {
         private int numerator; // Stores the numerator of the fraction
         private int denominator; // Stores the denominator of the fraction
 
         // Task 1: COnstructors
+    /***************************** Fraction ****************************
+        * Description:
+        * Constructs a fraction a/b and reduces it to normalized form.
+        *
+        * Parameters:
+        * a - numerator value (input)
+        * b - denominator value (input)
+        *
+        * Pre:
+        * a and b are valid integer values.
+        *
+        * Post:
+        * Fraction is reduced, denominator is non-negative,
+        * zero numerator becomes 0/1.
+        *
+        * Returns:
+        * Nothing
+        *
+        * Calls:
+        * gcd()
+        *******************************************************************/
         public Fraction (int a, int b){
             if (b == 0) {           // Infinity or NaN
                 numerator = a;
@@ -62,6 +99,23 @@ public class CSCI271_Assignment2_ReidAmrhein{
             denominator = b / g;
         }
 
+        /***************************** Fraction ****************************
+        * Description:
+        * Constructs a fraction with denominator 1.
+        *
+        * Parameters:
+        * a - numerator value (input)
+        *
+        * Pre:
+        * a is a valid integer.
+        *
+        * Post:
+        * Fraction is initialized as a/1.
+        *
+        * Returns:
+        * Nothing
+        *******************************************************************/
+       
         public Fraction(int a) {
             this(a, 1);
         }
@@ -155,8 +209,14 @@ public class CSCI271_Assignment2_ReidAmrhein{
             return new Fraction(1);
         }
 
-        int a = Math.pow(numerator, Math.abs(n));
-        int b = Math.pow(denominator, Math.abs(n));
+        int a = 1;
+        int b = 1;
+
+        // this makes sure it remains an integer rather than a float
+        for (int i = 0; i < Math.abs(n); i++) {
+            a *= numerator;
+            b *= denominator;
+        }
 
         if (n < 0) {
             return new Fraction(b, a);
@@ -218,3 +278,4 @@ public class CSCI271_Assignment2_ReidAmrhein{
         System.out.println(c.pow(3));
         System.out.println(c.pow(-2));
     }
+}
