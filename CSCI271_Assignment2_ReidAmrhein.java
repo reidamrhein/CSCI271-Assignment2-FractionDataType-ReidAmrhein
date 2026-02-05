@@ -187,6 +187,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
 
     public Fraction divide(Fraction f){
         // To divide fractions, you cross multiply
+        // Division by zero handled by Fraction constructor (Infinity / NaN)
         return new Fraction(numerator * f.denominator, denominator * f.numerator);
     }
 
