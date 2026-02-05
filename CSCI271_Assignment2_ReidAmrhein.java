@@ -81,7 +81,19 @@ public class CSCI271_Assignment2_ReidAmrhein{
             if (numerator == 0) {
                 return "NaN";
             }
+            else if (numerator > 0) {
+                return "Infinity";
+            }
+            else {
+                return "-Infinity";
+            }
         }
+
+        if (denominator == 1) {
+            return Integer.toString(numerator);
+        }
+
+        return numerator + "/" + denominator;
     }
 
     // Task 3: Arithmatic Operations
