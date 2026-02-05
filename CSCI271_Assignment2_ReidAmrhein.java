@@ -32,10 +32,11 @@ arithmetic manipulations.
 * Said not to include Student ID, so I didn't include it
 ********************************************************************/
 
+// I used my notes and the powerpoints for help on this
 public class CSCI271_Assignment2_ReidAmrhein{
     public class Fraction {
-        private int numerator;
-        private int denominator;
+        private int numerator; // Stores the numerator of the fraction
+        private int denominator; // Stores the denominator of the fraction
 
         // Task 1: COnstructors
         public Fraction (int a, int b){
@@ -56,13 +57,32 @@ public class CSCI271_Assignment2_ReidAmrhein{
                 b = -b;
             }
 
-            int g = gcd(a, b);
+            int g = gcd(a, b); // Greatest Common Denominator Function
             numerator = a / g;
             denominator = b / g;
+        }
+
+        public Fraction(int a) {
+            this(a, 1);
         }
     }
     
     // Task 2: toString Function
+    /***************************** toString ****************************
+        * Description:
+        * Converts the fraction to a String representation.
+        *
+        * Returns:
+        * String representation of the fraction.
+        *******************************************************************/
+
+    public String toString() {
+        if (denominator == 0) {
+            if (numerator == 0) {
+                return "NaN";
+            }
+        }
+    }
 
     // Task 3: Arithmatic Operations
     
