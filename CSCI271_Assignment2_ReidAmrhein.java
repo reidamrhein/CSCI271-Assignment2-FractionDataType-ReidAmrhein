@@ -68,6 +68,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
     }
     
     // Task 2: toString Function
+    
     /***************************** toString ****************************
         * Description:
         * Converts the fraction to a String representation.
@@ -97,7 +98,72 @@ public class CSCI271_Assignment2_ReidAmrhein{
     }
 
     // Task 3: Arithmatic Operations
+
+    /***************************** add *********************************
+        * Description:
+        * Adds this fraction to another fraction.
+        *******************************************************************/
     
+    public Fraction add(Fraction f){
+        return new Fraction(numerator * f.denominator + f.numerator * denominator, denominator * f.denominator);
+    }
+
+    /***************************** subtract ****************************
+        * Description:
+        * Subtracts another fraction from this fraction.
+        *******************************************************************/
+    
+    public Fraction subtract(Fraction f){
+        return new Fraction(numerator * f.denominator - f.numerator * denominator, denominator * f.denominator);
+    }
+
+    /***************************** multiply ****************************
+        * Description:
+        * Multiplies this fraction by another fraction.
+        *******************************************************************/
+
+    public Fraction multiply(Fraction f){
+        return new Fraction(numerator * f.numerator, denominator * f.denominator);
+    }
+
+    /***************************** divide ******************************
+        * Description:
+        * Divides this fraction by another fraction with cross multiplication.
+        *******************************************************************/
+
+    public Fraction divide(Fraction f){
+        // To divide fractions, you cross multiply
+        return new Fraction(numerator * f.denominator, denominator * f.numerator);
+    }
+
+    /***************************** negate ******************************
+        * Description:
+        * Returns the negative version of this fraction.
+        *******************************************************************/
+
+    public Fraction negate(){
+        return new Fraction(-numerator, denominator);
+    }
+
+    /***************************** pow *********************************
+        * Description:
+        * Raises this fraction to the n-th power.
+        *******************************************************************/
+
+    public Fraction pow(int n){
+        if (n == 0){
+            return new Fraction(1);
+        }
+
+        int a = Math.pow(numerator, Math.abs(n));
+        int b = Math.pow(denominator, Math.abs(n));
+
+        if (n < 0) {
+            return new Fraction(b, a);
+        }
+
+        return new Fraction(a, b);
+    }
     // Task 4: Main Testing
     public static void main(String[] args){
     
