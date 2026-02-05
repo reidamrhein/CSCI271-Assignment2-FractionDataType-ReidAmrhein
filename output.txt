@@ -1,0 +1,45 @@
+Script started on Thu Feb  5 16:22:30 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mac.win.winthrop.edu/Users/reidamrhein[0m[27m[24m[Jreidamrhein@Mac ~ % [K[?2004h[7meidamrhein@Mac Algorithm Analysis and Data Structures % cd C[7mS[7mCI271-Assignment2-FractionDataType-ReidAmrhein[27m[K
+[7mreidamrhein@Mac CSCI271-Assignment2-FractionDataType-ReidAmrhein % javac CSCI271[7m_[7mAssignment2_ReidAmrhein.java[27m[K
+[K
+[7mreidamrhein@Mac CSCI271-Assignment2-FractionDataType-ReidAmrhein % java CSCI271_[7mA[7mssignment2_ReidAmrhein[27m[K
+[K
+[7m-1/4[27m[K
+[7m0[27m[K
+[7mInfinity[27m[K
+[7m-Infinity[27m[K
+[7mNaN[27m[K
+[7m7[27m[K
+[7m240/133[27m[K
+[7m296/35[27m[K
+[7m-236/35[27m[K
+[7m228/35[27m[K
+[7m15/133[27m[K
+[7m-6/7[27m[K
+[7m216/343[27m[K
+[7m49/36[27m[K
+[7mreidamrhein@Mac CSCI271-Assignment2-FractionDataType-ReidAmrhein % [27m[K[22A[47D[27me[27mi[27md[27ma[27mm[27mr[27mh[27me[27mi[27mn[27m@[27mM[27ma[27mc[27m [27mA[27ml[27mg[27mo[27mr[27mi[27mt[27mh[27mm[27m [27mA[27mn[27ma[27ml[27my[27ms[27mi[27ms[27m [27ma[27mn[27md[27m [27mD[27ma[27mt[27ma[27m [27mS[27mt[27mr[27mu[27mc[27mt[27mu[27mr[27me[27ms[27m [27m%[27m [27mc[27md[27m [27mCS[27mC[27mI[27m2[27m7[27m1[27m-[27mA[27ms[27ms[27mi[27mg[27mn[27mm[27me[27mn[27mt[27m2[27m-[27mF[27mr[27ma[27mc[27mt[27mi[27mo[27mn[27mD[27ma[27mt[27ma[27mT[27my[27mp[27me[27m-[27mR[27me[27mi[27md[27mA[27mm[27mr[27mh[27me[27mi[27mn[1B[27mr[27me[27mi[27md[27ma[27mm[27mr[27mh[27me[27mi[27mn[27m@[27mM[27ma[27mc[27m [27mC[27mS[27mC[27mI[27m2[27m7[27m1[27m-[27mA[27ms[27ms[27mi[27mg[27mn[27mm[27me[27mn[27mt[27m2[27m-[27mF[27mr[27ma[27mc[27mt[27mi[27mo[27mn[27mD[27ma[27mt[27ma[27mT[27my[27mp[27me[27m-[27mR[27me[27mi[27md[27mA[27mm[27mr[27mh[27me[27mi[27mn[27m [27m%[27m [27mj[27ma[27mv[27ma[27mc[27m [27mC[27mS[27mC[27mI[27m2[27m7[27m1_[27mA[27ms[27ms[27mi[27mg[27mn[27mm[27me[27mn[27mt[27m2[27m_[27mR[27me[27mi[27md[27mA[27mm[27mr[27mh[27me[27mi[27mn[27m.[27mj[27ma[27mv[27ma[2B[27mr[27me[27mi[27md[27ma[27mm[27mr[27mh[27me[27mi[27mn[27m@[27mM[27ma[27mc[27m [27mC[27mS[27mC[27mI[27m2[27m7[27m1[27m-[27mA[27ms[27ms[27mi[27mg[27mn[27mm[27me[27mn[27mt[27m2[27m-[27mF[27mr[27ma[27mc[27mt[27mi[27mo[27mn[27mD[27ma[27mt[27ma[27mT[27my[27mp[27me[27m-[27mR[27me[27mi[27md[27mA[27mm[27mr[27mh[27me[27mi[27mn[27m [27m%[27m [27mj[27ma[27mv[27ma[27m [27mC[27mS[27mC[27mI[27m2[27m7[27m1[27m_A[27ms[27ms[27mi[27mg[27mn[27mm[27me[27mn[27mt[27m2[27m_[27mR[27me[27mi[27md[27mA[27mm[27mr[27mh[27me[27mi[27mn[2B[27m-[27m1[27m/[27m4[1B[27m0[1B[27mI[27mn[27mf[27mi[27mn[27mi[27mt[27my[1B[27m-[27mI[27mn[27mf[27mi[27mn[27mi[27mt[27my[1B[27mN[27ma[27mN[1B[27m7[1B[27m2[27m4[27m0[27m/[27m1[27m3[27m3[1B[27m2[27m9[27m6[27m/[27m3[27m5[1B[27m-[27m2[27m3[27m6[27m/[27m3[27m5[1B[27m2[27m2[27m8[27m/[27m3[27m5[1B[27m1[27m5[27m/[27m1[27m3[27m3[1B[27m-[27m6[27m/[27m7[1B[27m2[27m1[27m6[27m/[27m3[27m4[27m3[1B[27m4[27m9[27m/[27m3[27m6[1B[27mr[27me[27mi[27md[27ma[27mm[27mr[27mh[27me[27mi[27mn[27m@[27mM[27ma[27mc[27m [27mC[27mS[27mC[27mI[27m2[27m7[27m1[27m-[27mA[27ms[27ms[27mi[27mg[27mn[27mm[27me[27mn[27mt[27m2[27m-[27mF[27mr[27ma[27mc[27mt[27mi[27mo[27mn[27mD[27ma[27mt[27ma[27mT[27my[27mp[27me[27m-[27mR[27me[27mi[27md[27mA[27mm[27mr[27mh[27me[27mi[27mn[27m [27m%[K                                                              r [K[K[A[5C   4 [K[K[A[7C     2 [K[K[A[4C  - [K[K[A[6C    1 [K[K[A[6C    2 [K[K[A[7C     - [K[K[A[6C    2 [K[K[A[7C     2 [K[K[A[1C[K[K[A[3C N [K[K[A[9C       - [K[K[A[8C      I [K[K[A[1C[K[K[A[4C  - [K[K[A[K[A[23C                     A [K[A[79C[K[1B[K[A[79C                                                                         r [K[K[A[K[A[29C                           _ [K[A[79C[K[1B[K[A[79C                                                                         r [K[K[A[47C                                             S [K[A[79C[K[1B[K[A[79C                                                 e  ccd desktopo  p[?2004l[1B[1m[7m%[27m[1m[0m                                                                                ]7;file://Mac.win.winthrop.edu/Users/reidamrhein/desktop[0m[27m[24m[Jreidamrhein@Mac desktop % [K[?2004hccd Algorithm\ Analysis\ and\ Data\ Structures[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mac.win.winthrop.edu/Users/reidamrhein/desktop/Algorithm%20Analysis%20and%20Data%20Structures[0m[27m[24m[Jreidamrhein@Mac Algorithm Analysis and Data Structures % [K[?2004hccd Assi    CSCi271    I271_ -Assignment2-FractionDataType-ReidAmrhein[1m/[0m[K[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mac.win.winthrop.edu/Users/reidamrhein/desktop/Algorithm%20Analysis%20and%20Data%20Structures/CSCI271-Assignment2-FractionDataType-ReidAmrhein[0m[27m[24m[Jreidamrhein@Mac CSCI271-Assignment2-FractionDataType-ReidAmrhein % [K[?2004h[7mjava CSCI271_[7mA[7mssignment2_ReidAmrhein[27m[K[A[44C[27mj[27ma[27mv[27ma[27m [27mC[27mS[27mC[27mI[27m2[27m7[27m1[27m_A[27ms[27ms[27mi[27mg[27mn[27mm[27me[27mn[27mt[27m2[27m_[27mR[27me[27mi[27md[27mA[27mm[27mr[27mh[27me[27mi[27mn[?2004l
+-1/4
+0
+Infinity
+-Infinity
+NaN
+7
+240/133
+296/35
+-236/35
+228/35
+15/133
+-6/7
+216/343
+49/36
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mac.win.winthrop.edu/Users/reidamrhein/desktop/Algorithm%20Analysis%20and%20Data%20Structures/CSCI271-Assignment2-FractionDataType-ReidAmrhein[0m[27m[24m[Jreidamrhein@Mac CSCI271-Assignment2-FractionDataType-ReidAmrhein % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Thu Feb  5 16:23:57 2026
