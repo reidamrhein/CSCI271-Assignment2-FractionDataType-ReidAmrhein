@@ -96,7 +96,7 @@ public class CSCI271_Assignment2_ReidAmrhein{
 
             return numerator + "/" + denominator;
         }
-}
+
     // Task 3: Arithmatic Operations
 
     /***************************** add *********************************
